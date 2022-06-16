@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/perfil.png"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'/>
+
+    <title>Portfolio Strategy</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+        <div>    
+            <a href="#" class="nav__logo">Strategy</a>
+        </div> 
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">Skills</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#work" class="nav__link">Work</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <!-- boxicon to copy icon 
+            click on search menu
+            search for 'menu' in the search botton
+            dobble click to copy to copy code
+            -->
+            <i class="bx bx-menu"></i>
+        </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!-- Home -->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">
+                    Hi <br/> I'am <span class="home__title-color">Strategy</span><br/>
+                    Web Designer
+                </h1>
+                <a href="#contact" class="button">Contact me</a> &nbsp;&nbsp;&nbsp;
+                <a href="https://drive.google.com/file/d/1mzjCYg0ooVAZ34Ig-GmacFgWrnZ5qy-m/view?usp=sharing" 
+                class="button" target="_blank">Download cv</a>
+            </div>
+
+            <!-- what if we want them to be able to reach us through the social media we put there? -->
+            <div class="home__social">
+                <a href="#" class="home__social-icon">
+                    <i class="bx bxl-linkedin"></i></a>
+                <a href="#" class="home__social-icon">
+                    <i class="bx bxl-twitter"></i></a>    
+                <a href="#" class="home__social-icon">
+                    <i class="bx bxl-github"></i>
+            </div>
+
+            <div class="home__img">
+                <img src="assets/img/strategy.jpg" alt="Strategy Image"/>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+            <h2 class="section-title ">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__image">
+                    <img src="assets/img/strategy.jpg" alt="about__image"/>
+                </div>
+            
+                <div>
+                    <h2 class="about__subtitle">I'm Strategy</h2>
+                    <p class="about__text">
+                        I am a web Developer, and I'm very perssionate and dedicated to my work, 
+                        with 6 months experiences as a professionl web developer. I have acquired 
+                        the skill and knowledge necessary to make your project a sucess. Am also
+                        a student of Medical Labouratory Science.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Professional Skills</h2>
+                    <p class="skills__text">
+                        I am a web Developer, and I'm very perssionate and dedicated to my work,
+                        am also a Lab Scientist, I have a good Drawing skills and I haved a grate 
+                        Graphics Design skills.
+                    </p>
+
+                    <!-- start html skill -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="bx bxl-html5 skills__icon"></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+
+                        <div class="skills__bar skills__html"></div>
+                    </div>
+                    <!-- end html skill -->
+
+                    <!-- start css skill -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="bx bxl-css3 skills__icon"></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+
+                        <div class="skills__bar skills__css"></div>
+                    </div>
+                    <!-- end css skill -->
+
+                    <!-- start js skill -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="bx bxl-javascript skills__icon"></i>
+                            <span class="skills__name">Javascript</span>
+                        </div>
+
+                        <div>
+                            <span class="skills__percentage">55%</span>
+                        </div>
+
+                        <div class="skills__bar skills__js"></div>
+                    </div>
+                    <!-- end html skill -->
+
+                    <!-- start graphics skill -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class="bx bxs-paint skills__icon"></i>
+                            <span class="skills__name">Graphics</span>
+                        </div>
+
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+
+                        <div class="skills__bar skills__gd"></div>
+                    </div>
+                    <!-- end graphics skill -->
+                </div>
+
+                <div>
+                    <img src="assets/img/work3.jpg" alt="work3 image" class="skills image"/>
+                </div>
+            </div>    
+        </section>
+
+        <!-- work -->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work__image">
+                    <img src="assets/img/weboffice4.jpg" alt="work1 image" width="640"/>
+                </div>
+                <div class="work__image">
+                    <img src="assets/img/lab scientist1.jpg" alt="work2 image" width="640"/>
+                </div>
+                <div class="work__image">
+                    <img src="assets/img/lab scientist3.jpg" alt="work3 image" width="640"/>
+                </div>
+                <div class="work__image">
+                    <img src="assets/img/work4.jpg" alt="work4 image"/>
+                </div>
+                <div class="work__image">
+                    <img src="assets/img/work5.jpg" alt="work5 image"/>
+                </div>
+                <div class="work__image">
+                    <img src="assets/img/drawing1.jpg" alt="work6 image" width="640"/>
+                </div>
+            </div>
+        </section>
+
+        <!-- contacts -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">contact</h2>
+
+            <div class="contact__container bd-grid">
+                <!-- redirect user to your website after submitting to google sheet start -->
+                <script type="text/javascript">
+                    var submitted = false;
+                </script>
+                <iframe 
+                name="hidden_iframe"
+                id="hidden_iframe"
+                style="display: none"
+                onload="if(submitted){window.location='#'}">
+                </iframe>
+                <!-- redirect user to your website after submitting to google sheet end -->
+                <form 
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdkwaUtpH3E1RNQP4uMtrV93RJ6DeMe7XcwzHHDczxdRfnVDA/formResponse"
+                    method="POST" 
+                    target="hidden_iframe" 
+                    onsubmit="submitted=true"
+                    class="contact__form">
+                    
+                    <input type="text" placeholder="Name" class="contact__input" name="entry.683750294"/>
+                    <input type="email" placeholder="email" class="contact__input" name="entry.1024468960"/>
+                    <textarea 
+                    placeholder="Message"
+                    rows="10"
+                    class="contact__input"
+                    name="entry.1894088210"
+                    ></textarea>
+                    <button type="submit" class="contact__button button">   
+                        Send Message
+                    </button>        
+                </form>
+            </div>    
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <p class="footer__title">Strategy</p>
+
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="foote___icon"><i class="bx bxl-twitter"></i></a> 
+        </div>
+        <p>&#169; 2022 copyright all right reserved</p>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Main JS-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+<!-- 
+    - google search boxicons.com, inorder to use icon in our htnl page.
+    - click on usage and scroll down to usage as a font to copy this link
+ -->
+<!-- 
+    DEVELOPMENT TOOL
+    - VSCODE OR VISUAL STUDIO CODE
+    - BROWSER SUCH AS CHROME, FIREFOX, MICROSOFT
+
+    TECHNOLOGIES
+    - HTML
+    -CSS3
+    - JAVASCRIPT
+
+    THIRD PARTIES TECHNOLOGIES
+    - GITHUB
+    - NETLIFY
+    - BOXICONS.COM
+    - GOOGLE FONTS
+    - GOOGLE FORM
+    - GOOGLE SHEETS
+    -YET ANOTHER MAIL MERGE: MAIL MERGE FOR GMAIL
+ -->
+
+ <!-- 
+    - google search boxicon 
+     click on usage and scroll down to image fonts  to copy this link
+     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    - google search scrollrevealjs.org inorder to apply smooth scroll onto the htmlm page.
+     click on github go to quick start selected then copy this html code 
+     <script src="https://unpkg.com/scrollreveal"></script> paste it on the scroll reveal
+     section on the html page right after footer.
+    -google search font.google.com in order to copy font for our web page seacrch for option font.
+     click on select this style of regular 400, semibold 600, and bold 700
+     click on view select families icon 
+     click on @import and copy the content of <style> tags
+
+        configuring mail in google sheet
+        - open your gmail account to create two drafts 
+        1 mail content to receive when submitt button is clicked on your app
+        2 mail content to send out to the recepient i.e auto-response mail.
+        - back to google sheet
+        - click on get add-ons
+        - search for yet another mail merge: mail merge for gmail
+        for existing user
+        - click on extension.
+        - hover yet another gmail merge:
+        click on conclusion for  submission notification
+        - on the display dialoge box
+        * check notify one or more addresses of all response 
+        * check notify address submitted by the form
+        - click on the first email dropdown box to pick the draft that you want to receive
+        - click on the second email templete dropdown box to pick the draft you want to send out as auto-response.
+        - sender name: write the sender name
+        - check track email opdirened 
+        - check wait until a specific column is filled before sending the mail
+        - click on save button
+        - if probely configue you will see this message
+        You have sucessefully setup your notification rules. 
+        your form is ready for submission
+        - let test the email from our app
+
+        after development of our app let push to giyhub
+        - google search download github
+        - C:\portfoliohtmlcss11062022> git init
+        - C:\portfoliohtmlcss11062022> git status
+        -C:\portfoliohtmlcss11062022> git add .
+
+        C:\portfoliohtmlcss11062022> commit -m "Portfolio Html css js"
+        - open remote github https://giyhub.com
+        login or signup
+        create a new respiratory
+        respiratory name: portfolio102
+        click on create respiratory button
+        git remote add origin https://github.com/Strategy102/portfolio102.git
+        git branch -M main
+        git push -u origin main
+
+        refresh github website to view all our source code in github
+        go to netlify.com
+        then sign up
+  -->
