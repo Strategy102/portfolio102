@@ -17,7 +17,7 @@ showMenu('nav-toggle', 'nav-menu');
 //Active and remove menu mobile
 const navLink = document.querySelectorAll('.nav__link');
 
-console.log({ navLink })
+console.log({ navLink });
 
 function linkAction() {
     const navMenu = document.getElementById('nav-menu');
@@ -26,7 +26,7 @@ function linkAction() {
 navLink.forEach((n) => n.addEventListener('click', linkAction));
 
 /*======Scroll reveal animation*/
-const sr = ScrollReveal({
+const sr = SrollReveal({
     origin: 'top',
     distance: '80px',
     duration: 2000,

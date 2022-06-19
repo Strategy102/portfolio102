@@ -308,7 +308,7 @@ img {
 .skills__gd {
     width: 85%;
 }
-.skills image {
+.skills__image {
     border-radius: 0.5rem;
 }
 
