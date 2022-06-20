@@ -59,19 +59,67 @@
                     Web Designer
                 </h1>
                 <a href="#contact" class="button">Contact me</a> &nbsp;&nbsp;&nbsp;
-                <a href="https://drive.google.com/file/d/1mzjCYg0ooVAZ34Ig-GmacFgWrnZ5qy-m/view?usp=sharing" 
-                class="button" target="_blank">Download cv</a>
-            </div>
+                <div class="popup button"  onclick="myFunction()"> Download CV
+                    <span class="popuptext" id="myPopup"> 
+                        <p style="color: #ffffff;
+                                  font-size: small;
+                                  cursor: none;
+                                  -webkit-transition: all 0.3s ease;
+                                  transition: all 0.3s ease;"
+                                  >
+                                  Hi! click on any format to download my cv
+                                </p>
+                        <a href="https://docs.google.com/document/d/1HoI5pAxaw2Pm2B5j3Co9HCySpoFwwzzb/edit?usp=sharing&ouid=110426571594530217601&rtpof=true&sd=true"  target="_">
+                            <button style="
+                                font-size: 12px;
+                                font-weight: 300;
+                                padding: 5px 3px;
+                                color: #3e99f4;
+                                border-radius: 4px;
+                                -webkit-transition: all 0.3s ease;
+                                transition: all 0.3s ease;
+                                display: inline-block;
+                                margin-top: 0.5rem;
+                                white-space: nowrap;
+                                margin-right: 1rem;
+                                border: none;
+                                cursor: pointer;
+                                ">  MSWord Format
+                            </button>
+                        </a>
+                        <a href= "https://drive.google.com/file/d/1mzjCYg0ooVAZ34Ig-GmacFgWrnZ5qy-m/view?usp=sharing" target="_">
+                            <button style="
+                                font-size: 12px;
+                                font-weight: 300;
+                                padding: 5px 3px;
+                                color: #ec1839;
+                                border-radius: 4px;
+                                -webkit-transition: all 0.2s ease;
+                                transition: all 0.2s ease;
+                                display: inline-block;
+                                white-space: normal;
+                                border: none;
+                                cursor: pointer;
+                                ">PDF Format
+                            </button>
+                        </a>
+                    </span>
+                    </div>
+
+
+
+
+                         </div>
 
             <!-- what if we want them to be able to reach us through the social media we put there? -->
             <div class="home__social">
-                <a href="#" class="home__social-icon">
+                <a href="#" target="_blank" class="home__social-icon">
                     <i class="bx bxl-linkedin"></i></a>
-                <a href="https://twitter.com/home" class="home__social-icon">
+                <a href="https://twitter.com/home" target="_blank" class="home__social-icon">
                     <i class="bx bxl-twitter"></i></a>    
-                <a href="https://github.com/" class="home__social-icon">
+                <a href="https://github.com/" target="_blank" class="home__social-icon">
                     <i class="bx bxl-github"></i></a>
-                <a href="https://web.whatsapp.com/" class="home__social-icon">
+                <a href="https://web.whatsapp.com/" target="_blank" class="home__social-icon">
                     <i class="bx bxl-whatsapp"></i></a>    
             </div>
 
@@ -182,27 +230,21 @@
 
         <!-- work -->
         <section class="work section" id="work">
-            <h2 class="section-title">Work</h2>
-
+            <h2 class="section-title">
+                Work
+            </h2>
             <div class="work__container bd-grid">
-                <div class="work__image">
-                    <img src="assets/img/weboffice4.jpg" alt="work1 image" width="640"/>
-                </div>
-                <div class="work__image">
-                    <img src="assets/img/lab scientist1.jpg" alt="work2 image" width="640"/>
-                </div>
-                <div class="work__image">
-                    <img src="assets/img/lab scientist3.jpg" alt="work3 image" width="640"/>
-                </div>
-                <div class="work__image">
-                    <img src="assets/img/work4.jpg" alt="work4 image"/>
-                </div>
-                <div class="work__image">
-                    <img src="assets/img/work5.jpg" alt="work5 image"/>
-                </div>
-                <div class="work__image">
-                    <img src="assets/img/drawing1.jpg" alt="work6 image" width="640"/>
-                </div>
+                    <!-- Work Item Start -->
+                    <div class="work-item bd-grid">
+                        <div class="work__image">
+                                <img src="assets/img/new.PNG" alt="work"/>
+                                   <a class="work-info icon" href="" target="_blank"><i class="bx bx-link-external"></i></a>     
+                                
+                            </div>
+                          
+                                
+                    </div>
+                    <!-- Work Item End -->
             </div>
         </section>
 

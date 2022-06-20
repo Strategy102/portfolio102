@@ -106,6 +106,64 @@ img {
     top: 2rem;
     background-color: var(--first-color);
 }
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #555;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  /* .popup .popuptext .show .p {
+      background-color: #d4d4e3;
+  } */
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
 
 /* layout */
 .l-header {
@@ -224,6 +282,7 @@ img {
     right: 0;
     bottom: 0;
     width: 295px;
+    z-index: -1;
 }
 .home__img img {
     border-radius: 50%;
@@ -323,7 +382,24 @@ img {
     box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
     border-radius: 0.5rem;
     overflow: hidden;
+    width: 300px;
 }
+.work-item {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
+}
+.work-info {
+    color: red;
+
+}
+/* .work-item-inner {
+    border: 6px solid #fdf9ff;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+} */
 .work__image img {
     transition: 1s;
     cursor: pointer;
@@ -331,6 +407,15 @@ img {
 .work__image img:hover {
     transform: scale(1.1);
 }
+.icon {
+    opacity: 1;
+    -webkit-transform: translate(0px);
+    transform: translate(0px);
+}
+.icon .bx {
+    line-height: 40px;
+}
+
 
 /* contACT */
 .contact__input {
