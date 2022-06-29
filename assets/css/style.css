@@ -371,40 +371,40 @@ img {
     border-radius: 0.5rem;
 }
 
-/* work */
-.work {
+/* project */
+.project {
     text-align: center;
 }
-.work__container {
+.project__container {
     row-gap: 2rem;
 }
-.work__image {
+.project__image {
     box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
     border-radius: 0.5rem;
     overflow: hidden;
     width: 300px;
 }
-.work-item {
+.project-item {
     flex: 0 0 33.33%;
     max-width: 33.33%;
     margin-bottom: 30px;
 }
-.work-info {
+.project-info {
     color: red;
 
 }
-/* .work-item-inner {
+/* .project-item-inner {
     border: 6px solid #fdf9ff;
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
     position: relative;
 } */
-.work__image img {
+.project__image img {
     transition: 1s;
     cursor: pointer;
 }
-.work__image img:hover {
+.project__image img:hover {
     transform: scale(1.1);
 }
 .icon {
@@ -520,9 +520,9 @@ img {
 .about__image {
     width: 300px;
 }
-.work__container{
+.project__container{
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2);
     column-gap: 3rem;
 }
 .contact__form {
